@@ -9,7 +9,6 @@
       if(!$this->conn){
         die("Ah ocurrido un error al intentar conectarse ala base de datos.");
       }
-      print_r('Se ah establecido la conexion con exito');
     }
 
     public function close(){
